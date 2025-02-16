@@ -8,7 +8,7 @@ try:
     print("Square perimeter:", P)
     di = a * math.sqrt(2)
     print("Square diagonal:", round(di, 2))
-except ValueError:
+except Exception as e:
     print("Please enter a valid number.")
 
 print()
@@ -22,7 +22,7 @@ try:
     print("Rectangle perimeter:", P)
     di = math.sqrt(b**2 + c**2)
     print("Rectangle diagonal:", round(di, 2))
-except ValueError:
+except Exception as e:
     print("Please enter a valid number.")
 
 print()
