@@ -35,5 +35,5 @@ try:
     print("Circle area:", round(S, 2))
     C = 2 * math.pi * r
     print("Circumference:", round(C, 2))
-except ValueError:
+except Exception as e:
     print("Please enter a valid number.")
