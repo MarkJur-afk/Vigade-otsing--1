@@ -1,4 +1,4 @@
-import math
+import * from math
 
 try:
     a = float(input('Enter the side length of the square => '))
